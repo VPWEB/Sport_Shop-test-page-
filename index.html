@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VP SPORT SHOP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <img src = "https://t3.ftcdn.net/jpg/04/47/99/52/360_F_447995287_fzD7sAVQ8ipn75obiHNHQtsVuf6EMU7C.jpg" alt="Logo de VP Shop">
+        
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenid@ a VP SPORT SHOP</h1>
+            <p>Descubre la mejor colección de ropa deportiva para hombres, 
+                mujeres y niños. Calidad garantizada, estilo único.</p>
+        </section>
+        <section id="promo">
+            <h3 id="p1">Promoción Exclusiva</h3>
+            <p id="p1">¡Aprovecha nuestras ofertas de temporada con 
+                descuentos de hasta el 30% en productos seleccionados!</p>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div id="prod">
+                <div  id="ropa1">
+                    <h3>Ropa para Hombres</h3>
+                    <p>Encuentra camisetas, shorts y ropa deportiva diseñada para el máximo rendimiento.</p>
+                    <a href="#">Ver más</a>
+                </div>
+                <div id="ropa2">
+                    <h3>Ropa para Mujeres</h3>
+                    <p>Explora nuestra colección de ropa deportiva elegante y cómoda.</p>
+                    <a href="#">Ver más</a>
+                </div>
+                <div id="ropa3">
+                    <h3>Ropa para Niños</h3>
+                    <p>Descubre opciones divertidas y funcionales para los más pequeños.</p>
+                    <a href="#">Ver más</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="nosotros">
+            <h2>Sobre nosotros</h2>
+            <div>
+                <p>En VP SPORT SHOP nos dedicamos a ofrecer ropa deportiva de alta 
+                    calidad a precios accesibles. Nuestro compromiso es que cada 
+                    cliente encuentre el producto perfecto para su estilo de vida activo.</p>
+            </div>
+        </section>
+        
+<!--Formulario-->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form action="paginaWEB.php" method="post">
+                <label for="name" >Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 VP SPORT SHOP. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
