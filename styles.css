@@ -1,0 +1,260 @@
+/* Estilo general */
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(45deg, #2a2a72, #007bff);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+/* 1em equivale al tamaño de la fuente del contenedor o elemento que lo contiene.
+Ejemplo: Si el tamaño de fuente del contenedor es 16px, entonces 1em = 16px */
+    font-family: inherit;
+    margin: 10px;
+}
+header img{
+    border-radius: 20px;
+}
+
+nav {
+    background-color: #343a40;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color:  #f7b32b;
+    font-weight: bold;
+    transition: 0.3s;
+    transform: scale(1.1); /* Escala ligera al pasar el ratón*/
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+
+/* Sección inicial*/
+main section #inicio {
+    max-width: 1200px; 
+    margin: 20px auto;
+    text-align: center;
+}
+#inicio h1 {
+    font-size: 2.5em;
+}
+
+#inicio p {
+    font-size: 1.2em;
+}
+
+/* Sección promocional*/
+#promo {
+    background-color: #c22c2c;
+    max-width: 1200px; 
+    padding: 20px; 
+    font-weight: bold;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    display: block;
+    font-size: 1em;
+    margin: 10px auto;
+}
+
+#p1{
+    color: white;
+    font-size: 2.2em;
+}
+
+/* Sección de los productos hombre, mujer y niños*/
+#productos {
+    text-align: center;
+}
+
+main section #prod {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; /* Define el espacio entre los elementos en un contenedor flexible o de cuadrícula*/
+    margin-top: 20px;
+}
+
+#ropa1 {
+    flex: 1; /* Controla cómo los elementos flexibles crecen, encogen y ocupan espacio disponible en el contenedor */
+    max-width: 300px; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#ropa2 {
+    flex: 1; 
+    max-width: 300px; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#ropa3 {
+    flex: 1;
+    max-width: 300px; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#ropa1:hover, #ropa2:hover, #ropa3:hover {
+    transform: scale(1.02);
+}
+
+
+#prod a {
+    color: #007bff; 
+    text-decoration: none;
+}
+main section div a:hover {
+    color: darkblue;
+    font-weight: bold;
+}
+
+#nosotros h2 {
+    text-align: center;
+}
+
+#nosotros div {
+    background-color: #f8f9fa; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    max-width: 800px; 
+    margin: 20px auto;
+}
+
+
+
+/* Estilo del formulario */
+#contacto h2 {
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    transition: transform 0.3s ease; /*efecto zoom */
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    background-color: #4185f4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    opacity: 0.9;
+    transform: scale(1.05); /* boton agranda ligeramente*/
+}
+
+footer {
+    background-color: #2a2a72;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #f8c102;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color:white;
+    font-weight: bold;
+}
+
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em; /* Reduce el tamaño del encabezado */
+    }
+    nav a {
+        display: block;
+        margin: 5px 0;
+        font-size: 1em;
+    }
+    section {
+        padding: 10px;
+        margin: 10px auto;
+    }
+    form {
+        padding: 20px;
+        font-size: 0.9em; /* Reduce tamaño del formulario */
+    }
+}
+
