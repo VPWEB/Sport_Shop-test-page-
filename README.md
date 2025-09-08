@@ -18,5 +18,5 @@
 
 ## 🎨 Vista previa
 
-(//portadaweb.png)
+([portadaweb.png](https://github.com/VPWEB/Sport_Shop-test-page-/blob/main/portadaweb.png)
 
