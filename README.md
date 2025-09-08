@@ -1,8 +1,8 @@
 # 🌐 WEB de una Tienda de Ropa
 
 ![Estado](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
-![Lenguajes](https://img.shields.io/github/languages/top/TU-USUARIO/NOMBRE-DEL-REPO)
-![Última actualización](https://img.shields.io/github/last-commit/TU-USUARIO/NOMBRE-DEL-REPO)
+![Lenguajes](https://img.shields.io/github/languages/top/VPWEB/Sport_Shop-test-page)
+![Última actualización](https://img.shields.io/github/last-commit/VPWEB/Sport_Shop-test-page)
 
 ## 📖 Descripción
   
