@@ -21,6 +21,6 @@
 ![Vista previa](portadaweb.png)
 
 
-🔗 [Ver Demo](https://vpweb.github.io/Sport-Shop-test-page/)
+🔗 [Ver la página en vivo](https://vpweb.github.io/Sport_Shop-test-page-/)
 
 
